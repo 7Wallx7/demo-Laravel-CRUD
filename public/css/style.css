@@ -1,0 +1,33 @@
+.icoMain{
+    filter: invert(30%) sepia(28%) saturate(1070%) hue-rotate(165deg) brightness(102%) contrast(95%);
+}
+.icoSidebar{
+    filter: invert(99%) sepia(7%) saturate(175%) hue-rotate(229deg) brightness(115%) contrast(100%);
+}
+
+.icoSidebar .picked{
+    filter: invert(33%) sepia(14%) saturate(2238%) hue-rotate(166deg) brightness(93%) contrast(89%);
+}
+#sidebar-nav {
+    width: 300px;
+    height: 100%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    margin-left: -0.5rem;
+}
+/* FullCalendar */
+:root {
+    --fc-button-bg-color:#285c86;
+}
+.fc-col-header-cell-cushion{
+    text-decoration:none;
+}
+
+.icon{
+max-width: 32px;
+height: 32px;
+}
